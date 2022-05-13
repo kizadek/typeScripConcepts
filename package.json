@@ -1,0 +1,37 @@
+{
+  "name": "typescripconcepts",
+  "version": "1.0.0",
+  "description": "typeScrip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kizadek/typeScripConcepts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kizadek/typeScripConcepts/issues"
+  },
+  "homepage": "https://github.com/kizadek/typeScripConcepts#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/config": "^0.0.41",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/lodash": "^4.14.182",
+    "@types/nanoid": "^3.0.0",
+    "@types/node": "^17.0.33",
+    "@types/pino": "^7.0.5",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4"
+  }
+}
